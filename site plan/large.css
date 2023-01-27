@@ -72,7 +72,7 @@ body{
       padding:5%;
     }
     .article .cont img {
-      max-width:500px;
+      max-width:400px;
       width: 100%;
       
       
@@ -91,10 +91,7 @@ body{
   .contact h2{
     font-size: 2em;
   }
-  .contact{
-   
-    margin-left:30%;
-  }
+
 
  
   }

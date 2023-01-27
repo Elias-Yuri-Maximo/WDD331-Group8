@@ -28,28 +28,16 @@
         align-items: center;
          text-align: center;
               }
-.contact{
-        display: flex;
-        flex-flow:row;
-        align-items: center;
-         text-align: center;
-        max-width: 500px;
-        margin-left: 25%;
-        margin-right: 17%;
-        
+      .names{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-self: center;
         }  
-        
-        .locations{
-          display: flex;
-          flex-flow:row;
+        .contact{
           align-items: center;
-          text-align: center;
-          justify-content: space-around;
-         }
-         .div-location{
-          
-          margin:5px ;
         }
+
+        
         
       /*-Articles-*/
 .article{
@@ -65,7 +53,6 @@
 
   width:100px;
   transition:0.5s;
-  
   
 }
 
