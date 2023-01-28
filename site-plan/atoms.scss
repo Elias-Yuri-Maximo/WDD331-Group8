@@ -1,0 +1,66 @@
+@use 'variables' as *;
+
+
+
+//H1 style
+@mixin shape-title($margin, $font-family) {
+    margin: $margin;
+    font-family: $font-family;
+}
+
+h1{
+    @include shape-title(0.67em 0, ('Pattaya', sans-serif));
+    padding-left:4%;
+    color:#E63946;
+}
+
+//H2 style
+h2{
+    @include shape-title(5%, ('Playfair Display', serif));
+}
+
+//P style 
+p{
+font-family: 'Roboto', sans-serif;
+margin-top: 20px;
+}
+
+//Images
+.gelly {
+    width:100px;
+    transition:0.5s;
+    &{:hover{
+        transform:scale(1.2);
+      }
+    }
+  }
+  
+  .cont a img{
+    max-width: 300px;
+    transition:0.5s;
+    margin-top:20px;
+  }
+  .cont a img:hover{
+    transform:scale(1.1);
+    box-shadow: 10px 5px 5px rgb(168,218,220,0.4);
+  }
+
+  .cont img {
+    margin-bottom:20px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    
+  }
+
+  //a Style
+  a{
+    color:#14213D;
+    text-decoration:none;
+    font-family: "Open Sans", sans-serif;
+  }
+  a:hover{
+    color:#FF4A1C;
+  }
+  
+

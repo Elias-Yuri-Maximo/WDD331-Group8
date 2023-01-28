@@ -1,0 +1,40 @@
+
+@import "variables";
+//Header
+header, main {
+    max-width: 767px;
+    margin: 0 auto;
+}
+body{
+  
+    background-color: #F1FAEE;
+  }
+
+//Main
+main {
+  
+    max-width: 800px;
+    font-size: 18px;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+  }
+
+//Footer
+.footer-info{
+    margin-top:10px;
+    border-radius: 3px;
+   background-color:#A8DADC;
+   color:white;
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+   text-align: center;
+
+  } 
+
+footer a:hover{
+    color:white;
+  }
