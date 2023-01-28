@@ -1,0 +1,65 @@
+
+@use 'variables' as *;
+@use 'atoms';
+
+//Branch class
+.branch{
+    font-family: 'Pattaya', sans-serif;
+  }
+
+/*-Articles-*/
+.article{
+    max-width:800px;
+    margin: 10px auto;
+    background-color: rgb(168,218,220,0.4);
+    border-radius: 3px;
+    padding:5%;
+  }
+  .article h2{
+    margin: 0 auto;
+    padding:5px;
+  }
+
+//Hover Class
+  .hover:hover{
+    background-color:rgb(230,57,70,0.5);
+    color:white;
+  }
+  .hover{
+    padding: 10px;
+  }
+  .hover a:hover{
+    color:#0EABF3;
+  }
+
+  //Contacts
+  .contact{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+  }
+  .contact h1{
+    font-size: 40px;
+  }
+  .contact h2{
+    margin:30px;
+    font-size: 40px;
+  }
+  
+  .contact img{
+    width:130px;
+    border-radius: 150px;
+    margin:30px;
+    
+    transition:0.3s;
+    overflow:hidden;
+  } 
+  .contact img:hover{
+     transform:scale(1.2);
+     overflow:hidden;
+    
+   }
+   

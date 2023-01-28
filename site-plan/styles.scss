@@ -1,0 +1,15 @@
+// styles.scss
+@use 'atoms';  // assumes file is named _atoms.scss
+@use 'molecules';
+@use 'organisms';  // can shorten the name if we like :)
+@use 'medium';  
+@use 'large';  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
